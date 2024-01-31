@@ -53,6 +53,62 @@
 
     <!-- RIGHT SIDE -->
     <div class="right-side">
+        <div class="right-container">
+            <h5>Step 1 of 2</h5>
+            <h2>Personal details</h2>
+        </div>
+
+        <form action="/submit" method="post">
+            <p>
+                <input type="checkbox" name="business" id="business">
+                <label for="business">Click here if you are a business</label>
+                
+            </p>
+            <!-- for title -->
+            <p class="p2 p3">
+                <label for="title">Title *</label>
+                <select name="title" id="title">
+                    <option value="mr">Mr</option>
+                    <option value="mrs">Mrs</option>
+                    <option value="undisclosed">Prefer not to disclose</option>
+                </select>
+            </p>
+            <div class="details-inner">
+                <p class="p1 p3">
+                    <label for="first-name">First Name *</label>
+                    <input id="first-name" type="text" name="first-name">
+                </p>
+                <p class="p1 p3">
+                    <label for="last-name">Last Name *</label>
+                    <input id="last-name" type="text" name="last-name">
+                </p>
+            </div>
+            <div class="details-inner">
+                <p class="p1 p3">
+                    <label for="phone">Phone *</label>
+                    <input id="phone" type="tel" name="phone">
+                </p>
+                <p class="p1 p3">
+                    <label for="email">Email Address *</label>
+                    <input id="email" type="email" name="email">
+                </p>
+            </div>
+            <p class="p2 p3">
+                <label for="street">Street address *</label>
+                <input id="street" type="text" name="street">
+            </p>
+            <p class="p2 p3">
+                <label for="dob">Date of Birth *</label>
+                <input id="dob" type="date" name="dob">
+            </p>
+            <button type="submit" class="btn-submit">Next ></button>
+        </form>
+
+        <div>
+            <h5 class="step">step 2 of 2</h5>
+            <h2 class="last">Payment Details</h2>
+        </div>
+
 
     </div>
 
